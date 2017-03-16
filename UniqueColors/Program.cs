@@ -10,7 +10,7 @@ namespace UniqueColors
         private static void Main()
         {
             // load a test image
-            var bmp = new Bitmap(@"F:\Test images\test.bmp");
+            var bmp = new Bitmap(@"path_to_an_image_file");
             // call the method to count unique colors
             int cnt = CountColors(bmp);
             // display the result
