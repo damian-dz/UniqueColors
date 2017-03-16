@@ -14,7 +14,7 @@ namespace UniqueColors
             // call the method to count unique colors
             int cnt = CountColors(bmp);
             // display the result
-            Console.WriteLine("There are " + cnt + " unique colors in the image");
+            Console.WriteLine("There are " + cnt + " unique colors in the image.");
         }
 
         private static unsafe int CountColors(Bitmap bmp)
